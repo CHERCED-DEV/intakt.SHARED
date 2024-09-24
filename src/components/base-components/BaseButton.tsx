@@ -1,5 +1,4 @@
 import React from 'react';
-import './BaseButton.scss';
 import { BaseButtonProps } from '../../interfaces/base-interfaces/components/base-button.interface';
 
 

@@ -26,10 +26,10 @@ $font-weight-normal: 400;           // Normal font weight
 $font-weight-bold: 700;             // Bold font weight
 
 // Text Styles
-$text-color: $c-color1;             // Main text color
-$text-color-light: $c-color2;       // Secondary text color
-$text-color-dark: $c-color3;        // Dark text color
+$text-color: $text-color;                       // Main text color
+$text-color-light: $color-secondary-light;         // Secondary text color
+$text-color-dark: $color-tertiary-light;           // Dark text color
 
 // Link Styles
-$link-color: $c-secondary;                  // Link color
-$link-hover-color: $c-secondary-darken;     // Link color on hover
+$link-color: $color-secondary;                  // Link color
+$link-hover-color: $color-secondary-dark;     // Link color on hover
