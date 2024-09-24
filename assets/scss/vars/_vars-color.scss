@@ -1,0 +1,43 @@
+// + Colors
+// --------
+
+// Primary Colors
+$color-primary:               #151e3b;
+$color-primary-light:         tint($color-primary, 40);
+$color-secondary:             #206d6f;
+$color-secondary-light:       tint($color-secondary, 80);
+$color-secondary-dark:        shade($color-secondary, 40);
+$color-tertiary:              #e31F18;
+$color-tertiary-light:        tint($color-tertiary, 40);
+$color-tertiary-dark:         shade($color-tertiary, 40);
+
+// Fare Colors
+$color-fare-1:                #585F88;
+$color-fare-2:                #3F4566;
+$color-fare-3:                $color-primary;
+$color-fare-4:                $color-primary;
+$color-fare-5:                $color-primary;
+
+// Status Colors
+$color-success:               #2a844e;
+$color-error:                 #e61b14;
+$color-warning:               #c25414;
+$color-info:                  #2575d0;
+
+// Text and Background Colors
+$text-color:                  $color-primary;
+$background-color:            #f3f3f3;
+$body-background:             $background-color;
+
+// Border Colors
+$border-color:                $color-tertiary;
+
+// Custom Background Colors
+$background-color-1:          #fff;
+$background-color-2:          #efeff1;
+$background-color-3:          #ddd;
+$background-colors: (
+  background-color-1: $background-color-1,
+  background-color-2: $background-color-2,
+  background-color-3: $background-color-3
+);
