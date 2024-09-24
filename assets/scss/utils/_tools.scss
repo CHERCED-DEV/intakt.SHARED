@@ -1,8 +1,8 @@
 // + Tools
 // --------
 
-@function calculateRem($px) {
-    $rem: $px / 16; 
+@function calculateRem($size) {
+    $rem: calc($size / 16px); 
     @return #{$rem}rem; 
 }
 

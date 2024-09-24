@@ -1,5 +1,6 @@
 // core vars
 @import './vars/vars-color';
+@import './utils/fonts';
 @import './vars/vars-typography';
 
 // utils
@@ -7,4 +8,4 @@
 @import './utils/mixins';
 
 // components:
-@import './components/base-components/base-components';
+@import './components/base-components';
